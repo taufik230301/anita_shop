@@ -8,7 +8,7 @@ $s = $_POST['Search'];
 <html>
 <head>
 <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico"/>
-<title>Satuaja Thrift - Pencarian</title>
+<title>Hexagon Thrifting - Pencarian</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -91,7 +91,7 @@ $s = $_POST['Search'];
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.php">Satuaja Thrift</a></h1>
+				<h1><a href="index.php">Hexagon Thrifting</a></h1>
 			</div>
 		<div class="w3l_search">
 			<form action="search.php" method="post">
@@ -249,7 +249,7 @@ $s = $_POST['Search'];
 					<h3>Hubungi Kami</h3>
 					
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Aksara coffe shop.</li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Hexagon Thrifting.</li>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="satuaja.thrift@email">info@email</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 8961 6120 301</li>
 					</ul>

@@ -23,7 +23,7 @@ if(isset($_POST['addprod'])){
 							$liatlg = mysqli_num_rows($cekbrg);
 							$brpbanyak = mysqli_fetch_array($cekbrg);
 							// echo var_dump($brpbanyak['qty']);
-							$jmlh = isset($brpbanyak['qty']) ? count($brpbanyak['qty']) : 0;;
+							$jmlh = isset($brpbanyak['qty']) ? $brpbanyak['qty'] : 0;
 							
 							//kalo ternyata barangnya ud ada
 							if($liatlg>0){
@@ -89,7 +89,7 @@ if(isset($_POST['addprod'])){
 <html>
 <head>
 <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico"/>
-<title>Satuaja Thrift - Produk</title>
+<title>Hexagon Thrifting - Produk</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -172,7 +172,7 @@ if(isset($_POST['addprod'])){
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.php">Satuaja Thrift</a></h1>
+				<h1><a href="index.php">Hexagon Thrifting</a></h1>
 			</div>
 		<div class="w3l_search">
 			<form action="search.php" method="post">
@@ -263,11 +263,11 @@ if(isset($_POST['addprod'])){
 					<div class="rating1">
 						<span class="starRating">
 							<?php
-								$bintang = '<i class="fa fa-star blue-star" aria-hidden="true"></i>';
+								$bintang = '<i class="fa fa-star-o blue-star" aria-hidden="true"></i>';
 								$rate = $p['rate'];
 								
 								for($n=1;$n<=$rate;$n++){
-								echo '<i class="fa fa-star blue-star" aria-hidden="true"></i>';
+								echo '<i class="fa fa-star-o blue-star" aria-hidden="true"></i>';
 								};
 								?>
 						</span>
@@ -303,7 +303,7 @@ if(isset($_POST['addprod'])){
 					<h3>Hubungi Kami</h3>
 					
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Aksara coffe shop.</li>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Hexagon Thrifting.</li>
 						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="satuaja.thrift@email">info@email</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 8961 6120 301</li>
 					</ul>

@@ -54,7 +54,7 @@ if(isset($_POST['selesai']))
       type="image/png" 
       href="../favicon.png">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Satuaja Thrift - Pesanan <?php echo $checkdb['namalengkap']; ?></title>
+    <title>Hexagon Thrifting - Pesanan <?php echo $checkdb['namalengkap']; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -401,7 +401,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>By Satuaja Thrift</p>
+                <p>By Hexagon Thrifting</p>
             </div>
         </footer>
         <!-- footer area end-->

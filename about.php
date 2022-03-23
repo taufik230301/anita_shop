@@ -1,9 +1,14 @@
+<?php
+session_start();
+include 'dbconnect.php';
+
+?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico" />
-    <title>Satuaja Thrift - Tentang Kami</title>
+    <title>Hexagon Thrifting - Tentang Kami</title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -46,19 +51,6 @@
 
 <body>
     <!-- header -->
-    <div class="agileits_header">
-        <div class="container">
-            <div class="w3l_offers">
-                <p>DAPATKAN PENAWARAN MENARIK KHUSUS HARI INI, <a href="products.html">BELANJA SEKARANG!</a></p>
-            </div>
-            <div class="product_list_header">
-                <a href="cart.php"><button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-					 </a>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-    </div>
-
     <div class="logo_products">
         <div class="container">
             <div class="w3ls_logo_products_left1">
@@ -67,7 +59,7 @@
                 </ul>
             </div>
             <div class="w3ls_logo_products_left">
-                <h1><a href="index.php">Satuaja Thrift</a></h1>
+                <h1><a href="index.php">Hexagon Thrifting</a></h1>
             </div>
             <div class="w3l_search">
                 <form action="#" method="post">
@@ -82,6 +74,20 @@
             <div class="clearfix"> </div>
         </div>
     </div>
+    <div class="agileits_header">
+        <div class="container">
+            <div class="w3l_offers">
+                <p>DAPATKAN PENAWARAN MENARIK KHUSUS HARI INI, <a href="products.html">BELANJA SEKARANG!</a></p>
+            </div>
+            <div class="product_list_header">
+                <a href="cart.php"><button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+					 </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
+
     <!-- //header -->
     <!-- navigation -->
     <div class="navigation-agileits">
@@ -154,7 +160,7 @@
             <div class="about-agileinfo w3layouts">
                 <div class="col-md-20 about-wthree-grids grid-top">
                     <center>
-                        <p>Satuaja Thrifting yang menawarkan berbagai macam produk serta menjadi solusi untuk kalian yang mempunyai uang yang sedikit tetapi menginginkan barang yang original serta memberikan informasi tentang produk yang ditawarkan agar
+                        <p>Hexagon Thrifting yang menawarkan berbagai macam produk serta menjadi solusi untuk kalian yang mempunyai uang yang sedikit tetapi menginginkan barang yang original serta memberikan informasi tentang produk yang ditawarkan agar
                             pembeli tidak hanya senang mengguna namun juga menngerti serta memahami tentang asal-usul produk.</p>
                     </center>
                     <!-- <p class="top">Template : MarketPlace W3Layouts
@@ -181,7 +187,7 @@
                     <h3>Contact</h3>
 
                     <ul class="address">
-                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Aksara coffe shop.</li>
+                        <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Hexagon Thrifting.</li>
                         <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="satuaja.thrift@email">info@email</a></li>
                         <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 8961 6120 301</li>
                     </ul>
@@ -220,7 +226,7 @@
             </div>
             <div class="footer-copy">
                 <div class="container">
-                    <p>© 2021 Satuaja thrift | Design by <a href="http://instagram.com/teriakan_bocah/">Anita Pridayani</a></p>
+                    <p>© 2022 Hexagon Thrifting | Design by <a href="http://instagram.com/teriakan_bocah/">Anita Pridayani</a></p>
                 </div>
             </div>
         </div>

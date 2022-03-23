@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html,
 body {
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Monospace', Monospace;
     background: #ffffff;
 }
 
@@ -28,7 +28,7 @@ h4,
 h5,
 h6,
 a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Monospace', Monospace;
     margin: 0;
     font-weight: 700;
 }
@@ -243,7 +243,7 @@ button.w3view-cart:focus {
 }
 
 .logo_products {
-    padding: 2em 0;
+    padding: 0.5em 0;
 }
 
 .w3ls_logo_products_left {
@@ -636,6 +636,7 @@ ul.multi-column-dropdown h6 {
 .column div.agile_top_brand_left_grid {
     position: relative;
     margin: 0;
+    background-color: #62faa6;
 }
 
 .agile_top_brand_left_grid figure {
@@ -1394,7 +1395,7 @@ table.timetable_sub {
 }
 
 .timetable_sub th {
-    background: #fe9126;
+    background: #0d56f5;
     color: #fff !important;
     text-transform: capitalize;
     font-size: 13px;
@@ -1512,7 +1513,7 @@ td.invert-image a img {
 
 .checkout-left-basket h4 {
     padding: 1em;
-    background: #3399cc;
+    background: #fc5928;
     font-size: 1.1em;
     color: #fff;
     text-transform: uppercase;
@@ -1533,12 +1534,12 @@ td.invert-image a img {
 
 .checkout-left-basket {
     float: left;
-    width: 25%;
+    width: 50%;
 }
 
 .checkout-right-basket {
     float: right;
-    margin: 8em 0 0 0em;
+    margin: 2em 0 0 0em;
 }
 
 .checkout-left-basket ul li span {
