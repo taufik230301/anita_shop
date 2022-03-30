@@ -204,8 +204,11 @@ $timenow = date("j-F-Y-h:i:s A");
     <!-- login -->
     <div class="login">
         <div class="container">
-            <h2>Masuk</h2>
 
+            <div class="login-pict">
+                <img class="image-login" src="images/login-image.png" alt="">
+            </div>
+            <h4>Masuk</h4>
             <div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
                 <form method="post">
                     <input type="text" name="email" placeholder="Email" required>

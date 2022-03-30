@@ -72,28 +72,29 @@
             <div class="main-menu">
                 <div class="menu-inner">
                     <nav>
-                        <ul class="metismenu" id="menu">
-							<li><a href="index.php"><span>Home</span></a></li>
-							<li><a href="../"><span>Kembali ke Toko</span></a></li>
-							<li>
-                                <a href="manageorder.php"><i class="ti-dashboard"></i><span>Kelola Pesanan</span></a>
-                            </li>
-							<li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout"></i><span>Kelola Toko
+                    <ul class="metismenu" id="menu">
+                            <li class="active"><a href="index.php"><span>Home</span></a></li>
+                            <li><a href="../"><span>Kembali ke Toko</span></a></li>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-shopping-cart"></i><span>Kelola
+                                        Toko
                                     </span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="kategori.php">Kategori</a></li>
-                                    <li><a href="produk.php">Produk</a></li>
-									<li><a href="pembayaran.php">Metode Pembayaran</a></li>
+                                    <li><a href="kategori.php">Kategori Produk</a></li>
+                                    <li><a href="produk.php">Produk Haxegon</a></li>
+                                    <li><a href="pembayaran.php">Metode Pembayaran</a></li>
                                 </ul>
                             </li>
-							<li><a href="customer.php"><span>Kelola Pelanggan</span></a></li>
-							<li><a href="user.php"><span>Kelola Staff</span></a></li>
+                            <li>
+                                <a href="manageorder.php"><i class="ti-money"></i><span>Kelola Pesanan</span></a>
+                            </li>
+                            <li><a href="customer.php"><i class="ti-user"></i><span>Kelola Pelanggan</span></a></li>
+                            <li><a href="user.php"><i class="ti-user"></i><span>Kelola Staff</span></a></li>
                             <li>
                                 <a href="../logout.php"><span>Logout</span></a>
-                                
+
                             </li>
-                            
+
                         </ul>
                     </nav>
                 </div>
@@ -116,7 +117,7 @@
                     <!-- profile info & task notification -->
                     <div class="col-md-6 col-sm-4 clearfix">
                         <ul class="notification-area pull-right">
-                            <li><h3><div class="date">
+                            <li><h3><div class="date text-white">
 								<script type='text/javascript'>
 						<!--
 						var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
@@ -151,7 +152,7 @@
 									<h2>Daftar Kategori</h2>
 									<button style="margin-bottom:20px" data-toggle="modal" data-target="#myModal" class="btn btn-info col-md-2">Tambah Kategori</button>
                                 </div>
-                                    <div class="data-tables datatable-dark">
+                                    <div class="data-tables datatable-white">
 										 <table id="dataTable3" class="display" style="width:100%"><thead class="thead-dark">
 											<tr>
 												<th>No.</th>

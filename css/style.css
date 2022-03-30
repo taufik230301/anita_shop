@@ -691,7 +691,9 @@ ul.multi-column-dropdown h6 {
 /*-- //top-brands --*/
 
 div#myTabContent {
-    padding: 40px 40px;
+    padding: 100px 100px;
+    border-style: solid;
+    border-color: tomato;
 }
 
 .nav-tabs>li {
@@ -785,7 +787,8 @@ i.gray-star {
     height: 32px;
     border: none;
     text-indent: 100%;
-    background: url(../images/arrow.png) no-repeat 0px 0px;
+    background: url(../images/arrow_up.png) no-repeat 0px 0px;
+    border-color: white;
 }
 
 #toTopHover {
@@ -986,7 +989,7 @@ i.gray-star {
 
 .footer {
     padding: 6em 0 2em;
-    background: #743232;
+    background: #c02929;
 }
 
 .w3_footer_grid h3 {
@@ -1085,8 +1088,8 @@ i.fa.fa-arrow-right {
 .w3layouts-foot ul li a {
     width: 32px;
     height: 32px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(5, 4, 4);
+    border: 1px solid rgb(19, 17, 17);
     text-align: center;
     display: inline-block;
     font-size: 18px;
@@ -1123,7 +1126,7 @@ a.w3_agile_vimeo:hover {
 }
 
 .footer-botm {
-    background: #393737;
+    background: #f8f8fa;
     padding: 16px 0;
 }
 
@@ -1167,8 +1170,20 @@ a.w3_agile_vimeo:hover {
 .login-form-grids {
     width: 45%;
     padding: 3em;
-    background: #F7F7F9;
+    background: #3131f9;
     margin: 3em auto 0;
+    border-radius: 5%;
+}
+
+.login-pict {
+    margin-top: 50px;
+}
+
+img.image-login {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .login-form-grids input[type="email"],
@@ -3857,7 +3872,7 @@ h3.agileits-icons-title {
         font-size: 12px;
     }
     div#myTabContent {
-        padding: 20px 20px;
+        padding: 40px 40px;
     }
     p.w3l-ad {
         font-size: 13px;

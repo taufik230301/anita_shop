@@ -184,7 +184,7 @@ include 'dbconnect.php';
             <img src="images/PAGE1.png" alt="" />
         </li>
         <li>
-            <img src="images/PAGE2.PNG" alt="" />
+            <img src="images/PAGE2.png" alt="" />
         </li>
 
         <li>
@@ -305,6 +305,32 @@ include 'dbconnect.php';
                         <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about.php">How To</a></li>
                         <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="about.php">FAQ</a></li>
                     </ul>
+                </div>
+                <div class="col-md-3 w3_footer_grid">
+                    <h3>Alamat</h3>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://www.whatismyip-address.com/divi-discount/"></a><br>
+                            <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 300px;
+                                width: 450px;
+                            }
+                            </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                            <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 300px;
+                                width: 450px;
+                            }
+                            </style>
+                        </div>
+                    </div>
                 </div>
                 <div class="clearfix"> </div>
             </div>

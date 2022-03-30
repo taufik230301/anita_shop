@@ -234,7 +234,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                     <!-- profile info & task notification -->
                     <div class="col-md-6 col-sm-4 clearfix">
                         <ul class="notification-area pull-right">
-                            <li><h3><div class="date">
+                            <li><h3><div class="date text-white">
 								<script type='text/javascript'>
 						<!--
 						var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
